@@ -14,6 +14,14 @@
 	-Copy the shortcut to end-user desktops.
 #>
 
+#@========================================================================================
+#@ Script Name: Display-ComputerInfo
+#@ Created: 02/21/2017
+#@ Updated: 09/12/2017
+#@ Originator: Matthew Messer
+#@ Email: mmesserlmt@gmail.com
+#@========================================================================================
+
 [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") | Out-Null
 
 $UserDom            = $env:userdomain
