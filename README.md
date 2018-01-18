@@ -8,14 +8,14 @@ Completed Scripts:
 
 -Display-ComputerInfo: Displays a wealth of computer information you may need. Easy for end-users to read.
 
+-Find-InstalledPrograms: Displays all installed software on a local computer.
+
 -PC_Refresh_Asset_Inventory: Exports asset information to an Excel Workbook.
 
 
 Scripts to come:
 
 -Fill-ADPCDescription: Updates computer information in Active Directory for online connected devices.
-
--Find-InstalledPrograms: Displays all installed software on a computer.
 
 -Force-MachinePolicy: Force the Configuration Manager to execute the Machine Policy on a computer.
 
