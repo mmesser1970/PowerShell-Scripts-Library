@@ -4,14 +4,14 @@ Windows 7 PowerShell scripts to assist with an organizational PC Migration/PC Re
 
 Completed Scripts:
 
+-ADUser-ListToCSV: Extracts all Active Directory information for users listed in a text file end exports the info to a CSV file.
+
 -Display-ComputerInfo: Displays a wealth of computer information you may need. Easy for end-users to read.
 
 -PC_Refresh_Asset_Inventory: Exports asset information to an Excel Workbook.
 
 
 Scripts to come:
-
--All-ADUserstoCSV: Extracts all Active Directory users to a CSV file.
 
 -Fill-ADPCDescription: Updates computer information in Active Directory for online connected devices.
 
