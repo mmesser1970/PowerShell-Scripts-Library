@@ -10,14 +10,14 @@ Completed Scripts:
 
 -Find-InstalledPrograms: Displays all installed software on a local computer.
 
+-Force-MachinePolicy: Force the "SCCM" Configuration Manager to execute the Machine Policy on a remote computer.
+
 -PC_Refresh_Asset_Inventory: Exports asset information to an Excel Workbook.
 
 
 Scripts to come:
 
 -Fill-ADPCDescription: Updates computer information in Active Directory for online connected devices.
-
--Force-MachinePolicy: Force the Configuration Manager to execute the Machine Policy on a computer.
 
 -Get-AllADComputerInfo: Retrieves all computers from Active Directory.
 
@@ -32,7 +32,5 @@ Scripts to come:
 -Set-Password:
 
 -Set-PowerPlan:
-
-
 
 More scripts coming as they are completed!
