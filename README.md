@@ -31,6 +31,4 @@ Scripts to come:
 
 -Set-Password:
 
--Set-PowerPlan:
-
 More scripts coming as they are completed!
