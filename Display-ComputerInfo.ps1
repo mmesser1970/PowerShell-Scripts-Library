@@ -25,7 +25,7 @@
 <#.Synopsis Display local computer information.DESCRIPTION Extracts local computer data and outputs the information into an easy-to-read window.#>
 [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") | Out-Null
 $UserDom = $env:userdomain
-$UserName  $env:username
+$UserName = $env:username
 $User = (([ADSI]"WinNT://$UserDom/$UserName").FullName.ToString())
 $ComputerName = $env:computername
 $OSRegister = (Get-WmiObject Win32_OperatingSystem).RegisteredUser
@@ -43,4 +43,4 @@ If ($Model){$ComputerModel = $Model}Else {$Computermodel = $Name}
 "IP Address:`t $($IPAddress)`r`n", "MAC Address:`t $($MACAddress)`r`n",`
 "Manufacturer: `t $($Manufacturer)`r`n","Model: `t`t $($ComputerModel)`r`n",`
 "Serial Number: `t $($SerialNumber)`r`n") , "Computer Information" ,`
-[System.Windows.Forms.MessageBoxButtons]::OK,`[System.Windows.Forms.MessageBoxIcon]::Information)
+[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::Information)
